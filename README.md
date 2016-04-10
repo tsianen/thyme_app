@@ -24,4 +24,4 @@ If you modify anything in the frontend_src directory's javascript or sass folder
 ```
 gulp watch & npm start
 ```
-And you should be off to the races! Visit <https://localhost:3000> in your browser. 
+To launch, Visit <https://localhost:3000> in your browser.
