@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Nolan Thorn",
+  "authors": ["Nolan Thorn", "Garrett Townsend", "Tamiko Sianen"],
   "license": "GNU GPL",
   "dependencies": {
     "bluebird": "3.3.4",

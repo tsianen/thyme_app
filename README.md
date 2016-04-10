@@ -1,4 +1,4 @@
-# Halcyon_Server
+# Thyme_App
 
 ### INSTALLING LOCALLY
 
