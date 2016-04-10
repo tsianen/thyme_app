@@ -1,0 +1,7 @@
+@import 'partials/normalizer';
+@import 'partials/app';
+//-@import 'partials/component' //save as _component.scss
+
+.hidden {
+  display: none;
+}
