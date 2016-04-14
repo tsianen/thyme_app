@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home';
 
 ReactDOM.render(
-  <div>
-  <Home></Home>
-  </div>,
+  <h1>Hello Friends!</h1>,
   document.getElementById('app-container')
 );
+ 
