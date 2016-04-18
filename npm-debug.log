@@ -1,0 +1,186 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose readDependencies loading dependencies from /Users/g/thyme_app/package.json
+5 warn package.json thyme_app@0.1.0 No repository field.
+6 warn package.json thyme_app@0.1.0 license should be a valid SPDX license expression
+7 verbose install where, deps [ '/Users/g/thyme_app',
+7 verbose install   [ 'bluebird',
+7 verbose install     'body-parser',
+7 verbose install     'express',
+7 verbose install     'express-validator',
+7 verbose install     'history',
+7 verbose install     'jade',
+7 verbose install     'material-ui',
+7 verbose install     'react',
+7 verbose install     'react-dom',
+7 verbose install     'react-router',
+7 verbose install     'react-tap-event-plugin',
+7 verbose install     'reqwest',
+7 verbose install     'sequelize',
+7 verbose install     'babel-preset-es2015',
+7 verbose install     'babel-preset-react',
+7 verbose install     'babelify',
+7 verbose install     'browserify',
+7 verbose install     'del',
+7 verbose install     'gulp',
+7 verbose install     'gulp-env',
+7 verbose install     'gulp-rename',
+7 verbose install     'gulp-sass',
+7 verbose install     'gulp-uglify',
+7 verbose install     'mysql',
+7 verbose install     'run-sequence',
+7 verbose install     'vinyl-source-stream',
+7 verbose install     'vinyl-transform' ] ]
+8 verbose install where, peers [ '/Users/g/thyme_app', [] ]
+9 verbose installManyTop reading for lifecycle /Users/g/thyme_app/package.json
+10 info preinstall thyme_app@0.1.0
+11 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/babel-preset-es2015/package.json
+12 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/babel-preset-react/package.json
+13 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/babelify/package.json
+14 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/bluebird/package.json
+15 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/body-parser/package.json
+16 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/browserify/package.json
+17 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/del/package.json
+18 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/express/package.json
+19 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/express-validator/package.json
+20 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/gulp/package.json
+21 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/gulp-env/package.json
+22 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/gulp-rename/package.json
+23 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/gulp-sass/package.json
+24 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/gulp-uglify/package.json
+25 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/history/package.json
+26 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/jade/package.json
+27 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/material-ui/package.json
+28 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/mysql/package.json
+29 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/react/package.json
+30 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/react-dom/package.json
+31 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/react-router/package.json
+32 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/react-tap-event-plugin/package.json
+33 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/reqwest/package.json
+34 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/run-sequence/package.json
+35 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/sequelize/package.json
+36 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/vinyl-source-stream/package.json
+37 verbose installManyTop reading scoped package data from /Users/g/thyme_app/node_modules/vinyl-transform/package.json
+38 info package.json gulp-rename@1.2.2 No license field.
+39 info package.json react-tap-event-plugin@0.2.2 No license field.
+40 verbose readDependencies loading dependencies from /Users/g/thyme_app/package.json
+41 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/babel-preset-es2015/package.json
+42 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/babel-preset-react/package.json
+43 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/babelify/package.json
+44 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/bluebird/package.json
+45 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/body-parser/package.json
+46 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/browserify/package.json
+47 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/del/package.json
+48 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/express/package.json
+49 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/express-validator/package.json
+50 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/gulp/package.json
+51 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/gulp-env/package.json
+52 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/gulp-rename/package.json
+53 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/gulp-sass/package.json
+54 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/gulp-uglify/package.json
+55 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/history/package.json
+56 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/jade/package.json
+57 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/material-ui/package.json
+58 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/mysql/package.json
+59 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/react/package.json
+60 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/react-dom/package.json
+61 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/react-router/package.json
+62 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/react-tap-event-plugin/package.json
+63 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/reqwest/package.json
+64 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/run-sequence/package.json
+65 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/sequelize/package.json
+66 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/vinyl-source-stream/package.json
+67 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/vinyl-transform/package.json
+68 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/.bin/browserify/package.json
+69 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/.bin/gulp/package.json
+70 verbose targetResolver reading package data from /Users/g/thyme_app/node_modules/.bin/jade/package.json
+71 verbose already installed skipping jade@^1.11.0 /Users/g/thyme_app
+72 verbose already installed skipping material-ui@^0.15.0-alpha.2 /Users/g/thyme_app
+73 verbose already installed skipping react@^0.14.7 /Users/g/thyme_app
+74 verbose already installed skipping react-dom@^0.14.7 /Users/g/thyme_app
+75 verbose already installed skipping react-router@^2.0.1 /Users/g/thyme_app
+76 verbose already installed skipping react-tap-event-plugin@^0.2.2 /Users/g/thyme_app
+77 verbose already installed skipping reqwest@^2.0.5 /Users/g/thyme_app
+78 verbose already installed skipping sequelize@^3.20.0 /Users/g/thyme_app
+79 verbose already installed skipping babel-preset-es2015@^6.6.0 /Users/g/thyme_app
+80 verbose already installed skipping babel-preset-react@^6.5.0 /Users/g/thyme_app
+81 verbose already installed skipping babelify@^7.2.0 /Users/g/thyme_app
+82 verbose already installed skipping browserify@^13.0.0 /Users/g/thyme_app
+83 verbose already installed skipping del@^2.2.0 /Users/g/thyme_app
+84 verbose already installed skipping gulp@^3.9.1 /Users/g/thyme_app
+85 verbose already installed skipping gulp-env@^0.4.0 /Users/g/thyme_app
+86 verbose already installed skipping gulp-rename@^1.2.2 /Users/g/thyme_app
+87 verbose already installed skipping gulp-sass@^2.2.0 /Users/g/thyme_app
+88 verbose already installed skipping gulp-uglify@^1.5.3 /Users/g/thyme_app
+89 verbose already installed skipping mysql@^2.9.0 /Users/g/thyme_app
+90 verbose already installed skipping run-sequence@^1.1.5 /Users/g/thyme_app
+91 verbose already installed skipping vinyl-source-stream@^1.1.0 /Users/g/thyme_app
+92 verbose already installed skipping vinyl-transform@^1.0.0 /Users/g/thyme_app
+93 verbose already installed skipping bluebird@3.3.4 /Users/g/thyme_app
+94 verbose already installed skipping body-parser@^1.15.0 /Users/g/thyme_app
+95 verbose already installed skipping express@^4.3.14 /Users/g/thyme_app
+96 verbose already installed skipping express-validator@^2.20.3 /Users/g/thyme_app
+97 verbose already installed skipping history@^2.0.1 /Users/g/thyme_app
+98 silly install resolved []
+99 info build /Users/g/thyme_app
+100 info linkStuff thyme_app@0.1.0
+101 silly linkStuff thyme_app@0.1.0 has /Users/g as its parent node_modules
+102 verbose linkBins thyme_app@0.1.0
+103 verbose linkMans thyme_app@0.1.0
+104 verbose rebuildBundles thyme_app@0.1.0
+105 verbose rebuildBundles [ '.bin',
+105 verbose rebuildBundles   'babel-preset-es2015',
+105 verbose rebuildBundles   'babel-preset-react',
+105 verbose rebuildBundles   'babelify',
+105 verbose rebuildBundles   'bluebird',
+105 verbose rebuildBundles   'body-parser',
+105 verbose rebuildBundles   'browserify',
+105 verbose rebuildBundles   'del',
+105 verbose rebuildBundles   'express',
+105 verbose rebuildBundles   'express-validator',
+105 verbose rebuildBundles   'gulp',
+105 verbose rebuildBundles   'gulp-env',
+105 verbose rebuildBundles   'gulp-rename',
+105 verbose rebuildBundles   'gulp-sass',
+105 verbose rebuildBundles   'gulp-uglify',
+105 verbose rebuildBundles   'history',
+105 verbose rebuildBundles   'jade',
+105 verbose rebuildBundles   'material-ui',
+105 verbose rebuildBundles   'mysql',
+105 verbose rebuildBundles   'react',
+105 verbose rebuildBundles   'react-dom',
+105 verbose rebuildBundles   'react-router',
+105 verbose rebuildBundles   'react-tap-event-plugin',
+105 verbose rebuildBundles   'reqwest',
+105 verbose rebuildBundles   'run-sequence',
+105 verbose rebuildBundles   'sequelize',
+105 verbose rebuildBundles   'vinyl-source-stream',
+105 verbose rebuildBundles   'vinyl-transform' ]
+106 info install thyme_app@0.1.0
+107 info postinstall thyme_app@0.1.0
+108 info prepublish thyme_app@0.1.0
+109 verbose validateInstall loading /Users/g/thyme_app/package.json for validation
+110 verbose stack Error: The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+110 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+110 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+110 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+110 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+110 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+110 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+110 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+110 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+110 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+110 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+111 verbose cwd /Users/g/thyme_app
+112 error Darwin 15.4.0
+113 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+114 error node v4.4.1
+115 error npm  v2.14.20
+116 error code EPEERINVALID
+117 error peerinvalid The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+117 error peerinvalid Peer material-ui@0.15.0-beta.1 wants react@^15.0.0
+117 error peerinvalid Peer react-dom@0.14.8 wants react@^0.14.8
+117 error peerinvalid Peer react-tap-event-plugin@0.2.2 wants react@^0.14.0
+118 verbose exit [ 1, true ]

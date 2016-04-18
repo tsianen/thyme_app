@@ -15,7 +15,7 @@ app.use(expressValidator({})); // this line must be immediately after express.bo
 
 app.set('view engine', 'jade');
 
-app.use('/public', express.static(__dirname + '/frontend_dist'));
+app.use('/', express.static(__dirname + '/views'));
 
 server.listen(process.env.PORT || 3000, function() {
   console.log('App listening at port 3000...');
