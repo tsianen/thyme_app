@@ -13,8 +13,6 @@ app.use(bodyParser.json({limit: '50mb'})); // for parsing application/json
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true })); // for parsing application/x-www-form-urlencoded
 app.use(expressValidator({})); // this line must be immediately after express.bodyParser()!
 
-app.set('view engine', 'jade');
-
 app.use('/', express.static(__dirname + '/views'));
 
 server.listen(process.env.PORT || 3000, function() {
